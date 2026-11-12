@@ -10,7 +10,7 @@ You're still and always will be the most chaotic, annoying, caring sister EVERRR
 
 You've taught me so much and I am always grateful for it. At the end of the day, You were the one who made my Breakup easier and helped me to Move On and i would appreciate if you could stop saying her name at everything.
 
-I don't have much to say but i would say this that i will always give you the love, the care, you always deserved you ungrateful potato. You will be the best pan pan ever. 
+I don't have much to say but i would say this that i will always give you the love, the care, you always deserved you ungrateful potato. You are the best pan pan ever. 
 
 I bet he couldn't have done anything like this :). But don't worry, if he won't, i will.
 
