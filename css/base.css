@@ -1,0 +1,68 @@
+html,
+body {
+    height: 100%;
+    background: var(--obsidian);
+    color: var(--ivory);
+    font-family: var(--sans);
+    font-weight: 300;
+    overflow: hidden
+}
+
+#stars {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0
+}
+
+.screen {
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: safe center;
+    gap: 2.5rem;
+    padding: 2rem;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity var(--slow) ease, visibility var(--slow);
+    overflow-y: auto
+}
+
+.screen>* {
+    flex-shrink: 0
+}
+
+.screen.active {
+    opacity: 1;
+    visibility: visible
+}
+
+h1,
+h2,
+.reveal,
+.clock,
+.final {
+    font-family: var(--serif);
+    font-weight: 300
+}
+
+p {
+    line-height: 1.7;
+    max-width: 34rem
+}
+
+.script {
+    font-family: var(--script);
+    font-size: 2.4rem;
+    color: var(--gold)
+}
+
+:focus-visible {
+    outline: 1px solid var(--gold);
+    outline-offset: 4px
+}

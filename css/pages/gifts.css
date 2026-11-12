@@ -1,0 +1,5 @@
+.cards{display:flex;flex-wrap:wrap;gap:1.5rem;justify-content:center}
+.gift{border:1px solid var(--gold-deep);background:linear-gradient(160deg,var(--charcoal),var(--shadow));padding:1.6rem;border-radius:10px;width:17rem;display:grid;gap:1rem}
+.gift h3{font-family:var(--serif);font-weight:500;font-size:1.4rem;color:var(--gold)}
+.gift .msg{font-family:var(--serif);font-size:1.2rem;line-height:1.5;font-style:italic;color:var(--ivory)}
+#ending .clock{font-size:clamp(4rem,18vw,11rem);color:var(--gold);animation:glow 6s infinite}#ending .final{font-size:clamp(1.2rem,3vw,1.9rem);font-style:italic}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>12:12</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital,wght@0,300;0,500;1,300&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/variables.css"><link rel="stylesheet" href="css/reset.css"><link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/animations.css"><link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/pages/intro.css"><link rel="stylesheet" href="css/pages/birthday.css">
+<link rel="stylesheet" href="css/pages/memories.css"><link rel="stylesheet" href="css/pages/letter.css"><link rel="stylesheet" href="css/pages/gifts.css">
+</head><body>
+<canvas id="stars" aria-hidden="true"></canvas>
+<button id="music-toggle" class="music" aria-label="Toggle music" hidden>♪</button>
+<audio id="song" src="assets/music/yellow.mp3" loop preload="auto"></audio>
+
+<section class="screen active" id="intro">
+  <p class="reveal" id="intro-text">You didn’t expect this, did you?</p>
+  <button class="btn" id="open-btn" hidden>Open it</button>
+</section>
+
+<section class="screen" id="birthday">
+  <h1 class="hbd"><span>Happy</span><span>Birthday</span><span class="name">Shivi</span></h1>
+  <button class="btn next" hidden>Keep going</button>
+</section>
+
+<section class="screen" id="note">
+  <div class="paper">
+    <p class="script">Shivi,</p>
+    <p>Another year of you being chaotic, annoying, stupid and somehow still the sweetest person I know. I’m not great at speeches, so I built you a tiny world instead.</p>
+    <p>Happy birthday!!!</p>
+  </div>
+  <button class="btn next">Our memories</button>
+</section>
+
+<section class="screen" id="memories">
+  <p class="hint">Tap a photo to flip it. Drag them around.</p>
+  <div class="wall" id="wall"></div>
+  <button class="btn next">One more thing</button>
+</section>
+
+<section class="screen" id="letter">
+  <div class="paper letter-paper"><p id="letter-text" class="typed"></p></div>
+  <button class="btn next" hidden>Almost done</button>
+</section>
+
+<section class="screen" id="gifts">
+  <h2>You said it sarcastically but I took it serious</h2>
+  <div class="cards" id="cards"></div>
+  <button class="btn next">The end</button>
+</section>
+
+<section class="screen" id="ending">
+  <p class="clock">12:12</p>
+  <p class="final">Made with love, by your favourite headache. :)
+    Enjoy your day and again Happy Birthday!!!
+  </p>
+</section>
+
+<script src="js/animations.js"></script><script src="js/music.js"></script><script src="js/navigation.js"></script>
+<script src="js/gallery.js"></script><script src="js/gifts.js"></script><script src="js/app.js"></script>
+</body></html>

@@ -1,0 +1,1 @@
+#intro .reveal{font-size:clamp(1.8rem,5vw,3.2rem);opacity:0;transition:opacity 3s ease}#intro .reveal.show{opacity:1}

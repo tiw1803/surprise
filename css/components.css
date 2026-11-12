@@ -1,0 +1,7 @@
+.btn{border:1px solid var(--gold-deep);color:var(--gold);padding:.9rem 2.2rem;border-radius:999px;letter-spacing:.08em;background:rgba(21,21,21,.6);transition:box-shadow 1s,border-color 1s}
+.btn:hover{border-color:var(--gold);box-shadow:0 0 24px rgba(212,175,114,.35)}
+.music{position:fixed;top:1rem;right:1rem;z-index:10;width:2.6rem;height:2.6rem;border:1px solid var(--gold-deep);border-radius:50%;color:var(--gold)}
+.music.off{opacity:.45;text-decoration:line-through}
+.paper{background:var(--charcoal);border:1px solid var(--shadow);padding:2.2rem;border-radius:4px;display:grid;gap:1.2rem;max-width:36rem;text-align:left;font-family:var(--serif);font-size:1.25rem}
+.hint{color:var(--grey);font-size:.9rem}
+[hidden]{display:none!important}

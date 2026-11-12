@@ -1,0 +1,13 @@
+.letter-paper {
+    width: min(100%, 36rem);
+    min-height: 16rem;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere
+}
+
+.typed {
+    font-family: var(--script);
+    font-size: 1.7rem;
+    line-height: 1.5;
+    max-width: none
+}
