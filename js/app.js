@@ -21,7 +21,7 @@ Stay the same, we'll eventually fix things one day i promise. Enjoy your day, fo
 Once again,
 
 Happy birthday you ungrateful potato <3. 
-For the best sister by his annoying brother,
+For the best sister by her annoying brother,
 Enjoy your day.
 Om.
 `;
